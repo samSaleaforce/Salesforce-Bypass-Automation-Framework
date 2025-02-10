@@ -1,8 +1,8 @@
 /**
  * @description       : 
- * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @author            : Sumant
  * @group             : 
- * @last modified on  : 02-09-2025
+ * @last modified on  : 02-10-2025
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public without sharing class AccountTriggerHandlerBypass{
