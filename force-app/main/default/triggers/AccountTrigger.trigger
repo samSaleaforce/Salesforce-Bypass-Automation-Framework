@@ -1,3 +1,10 @@
+/**
+ * @description       : Trigger for Account object
+ * @author            : Sumant
+ * @group             : 
+ * @last modified on  : 02-10-2025
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
 trigger AccountTrigger on Account (before insert, before update) {
     if (BypassUtils.isGlobalBypassEnabled('Bypass_Triggers__c') || 
         BypassUtils.isSpecificAutomationBypassed('AccountTrigger')) {

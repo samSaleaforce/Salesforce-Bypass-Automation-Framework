@@ -1,5 +1,5 @@
 /**
- * @description       : 
+ * @description       : Trigger handler class for Account object
  * @author            : Sumant
  * @group             : 
  * @last modified on  : 02-10-2025
