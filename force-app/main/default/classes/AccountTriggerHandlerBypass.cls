@@ -10,6 +10,7 @@ public without sharing class AccountTriggerHandlerBypass{
     public Boolean isFirstTime=true;
     public AccountTriggerHandlerBypass() {
         this.helper = new AccountTriggerHelper();
+        
     }
 
     public void beforeInsert(List<Account> newAccounts) {
