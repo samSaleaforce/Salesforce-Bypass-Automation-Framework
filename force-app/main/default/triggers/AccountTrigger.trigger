@@ -13,7 +13,7 @@ trigger AccountTrigger on Account (before insert, before update) {
     }
 
     // Your trigger logic here
-    AccountTriggerHandler handler = new AccountTriggerHandler();
+    AccountTriggerHandlerBypass handler = new AccountTriggerHandlerBypass();
     if(handler.isFirstTime)
     {
         handler.isFirstTime = false;
