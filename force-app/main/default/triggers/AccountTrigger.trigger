@@ -2,7 +2,7 @@
  * @description       : Trigger for Account object
  * @author            : Sumant
  * @group             : 
- * @last modified on  : 02-10-2025
+ * @last modified on  : 04-20-2025
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 trigger AccountTrigger on Account (before insert, before update) {
@@ -13,7 +13,7 @@ trigger AccountTrigger on Account (before insert, before update) {
     }
 
     // Your trigger logic here
-    AccountTriggerHandler handler = new AccountTriggerHandler();
+    AccountTriggerHandlerBypass handler = new AccountTriggerHandlerBypass();
     if(handler.isFirstTime)
     {
         handler.isFirstTime = false;

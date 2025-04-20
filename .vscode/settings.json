@@ -9,5 +9,6 @@
     "activityBar.background": null
   },
   "vlocity.sfdxUsername": "sam.salesforce1993@gmail.com",
-  "vlocity.salesforce.apiVersion": "62.0"
+  "vlocity.salesforce.apiVersion": "62.0",
+  "analyticsdx-vscode-core.CLI.checkForPlugin": false
 }
